@@ -5,4 +5,4 @@ class Blog(models.Model):
     title = models.CharField(max_length=500)
     body = models.TextField()
     def __str__(self):
-        return self.titl
+        return self.title
